@@ -1,16 +1,25 @@
 # NTC Data and Voice Pack Menu
 
-A Python command-line menu exercise that lets users browse sample Nepal Telecom (NTC) data, voice, and SMS package options.
+A Python menu exercise for browsing sample Nepal Telecom (NTC) data, voice, and SMS package options.
 
 ## Features
 
-- Main menu for all-time, recurring, SMS, and social/video package categories
+- Animated “Namaste” welcome and a Nepali-inspired desktop interface
+- Browse all-time, recurring, SMS, and social/video package categories
 - Separate Python modules for each package menu
-- Input validation and navigation back to the main menu
+- Original command-line menu remains available
 
-The current program is a menu simulation: it displays sample package choices and confirmation messages; it does not connect to NTC or activate a real service.
+Both interfaces are menu simulations. They display sample package choices and confirmation messages; neither connects to NTC or activates a real service.
 
-## Run
+## Run the desktop app
+
+Requires Python with Tkinter available.
+
+```bash
+python app.py
+```
+
+## Run the command-line menu
 
 Requires Python 3.10 or newer for `match` statements.
 
